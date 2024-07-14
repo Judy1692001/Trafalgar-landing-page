@@ -82,6 +82,11 @@ nav {
     color: #1F1534; 
 }
 
+.nav-list ul li a:hover {
+    text-decoration: none;
+    color: rgb(189, 107, 107);
+}
+
 section img {
     margin-top: 3%; 
 }
@@ -120,6 +125,11 @@ section img {
     margin-top: 10%;
     margin-left: -8%;
 }
+
+.consult-button p:hover {
+    background-color: #133564;
+}
+
 
 .consult-button p {
     background-color: #458FF6;
@@ -412,12 +422,20 @@ section img {
     border: 1.4px solid #458FF6;
     margin-top: 10%;
     margin-left: 46%;
+    transition: box-shadow 0.1s ease;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button p {
     text-align: center;
     padding-top: 7%;
     padding-left: 1%;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
 }
 
 .button a {
@@ -480,6 +498,11 @@ section img {
     height: 40px;
     border-radius: 25px;
     border: 1.4px solid #458FF6;
+    transition: box-shadow 0.1s ease;
+}
+
+.button-2:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-2 p {
@@ -555,6 +578,11 @@ section img {
     border: 1.4px solid #458FF6;
     margin-top: 12%;
     display: flex;
+    transition: box-shadow 0.1s ease;
+}
+
+.button-3:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-3 p {
@@ -840,6 +868,10 @@ section img {
     margin-right: 10px;
 }
 
+.read a:hover {
+    color: #0d76af;
+}
+
 .read a {
     font-family: 'Mulish', sans-serif;
     font-weight: 600px;
@@ -857,6 +889,11 @@ section img {
     left: 33%;
     display: flex;
     position: absolute;
+    transition: box-shadow 0.1s ease;
+}
+
+.button-4:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-4 p {
@@ -912,6 +949,10 @@ section img {
 
 .column-1 , .column-2 , .column-3 , .column-4 {
     width: 30vw;
+}
+
+.column-2 a:hover , .column-3 a:hover , .column-4 a:hover {
+    color: #133564;
 }
 
 .column-1 {
